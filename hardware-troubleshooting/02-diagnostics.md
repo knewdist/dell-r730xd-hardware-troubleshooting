@@ -37,6 +37,8 @@ These indicators strongly suggested a **host-level fault**, rather than a firewa
 
 ## BIOS / POST Diagnostics
 
+![UEFI Memory Error](../images/UEFI0078.jpg)
+
 During system reboot, firmware-level warnings were displayed, including:
 
 - Memory configuration changes detected
@@ -49,6 +51,9 @@ The system was unable to proceed normally past POST while the error condition pe
 ---
 
 ## Dell ePSA Pre-Boot Diagnostics
+
+![Dell ePSA Memory Failure](../images/ePSA.jpg)
+
 
 ### Tool Used
 - Dell Enhanced Pre-Boot System Assessment (ePSA)

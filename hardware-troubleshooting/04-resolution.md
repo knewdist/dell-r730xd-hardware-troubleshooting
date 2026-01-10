@@ -24,6 +24,10 @@ The resolution focused on:
 ---
 
 ### 2. Memory Module Isolation
+
+![DIMM Removed — Slot B1](../images/B1-removal.jpg)
+
+
 - Chassis opened for internal access
 - DIMMs inspected for proper seating
 - Suspect DIMM removed from the slot identified by POST and ePSA diagnostics
@@ -41,6 +45,10 @@ The resolution focused on:
 ---
 
 ### 4. Post-Resolution Validation
+
+![Proxmox Stable Memory](../images/KERN-MEM.jpg)
+
+
 - Verified Proxmox VE stability over sustained uptime
 - Confirmed OPNsense firewall VM functionality
 - Verified VPN connectivity and routing stability
