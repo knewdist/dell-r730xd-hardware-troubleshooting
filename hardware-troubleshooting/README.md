@@ -22,3 +22,12 @@
 - Firewall and VPN downtime
 - Hypervisor instability
 
+
+## Investigation Flow
+
+1. [Timeline](01-timeline.md)
+2. [Diagnostics](02-diagnostics.md)
+3. [Root Cause Analysis](03-root-cause.md)
+4. [Resolution](04-resolution.md)
+5. [Lessons Learned](05-lessons-learned.md)
+
