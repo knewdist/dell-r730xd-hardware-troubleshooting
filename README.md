@@ -1,17 +1,33 @@
 # Dell PowerEdge R730xd — Hardware Troubleshooting Case Study
 
 This repository documents a real-world hardware incident involving a
-Dell PowerEdge R730xd running Proxmox VE and OPNsense.
+Dell PowerEdge R730xd running Proxmox VE and an OPNsense firewall VM.
 
-The system experienced intermittent network outages, firewall instability,
-and system halts caused by failing ECC memory.
+The system experienced intermittent loss of connectivity from the Proxmox host,
+while the firewall and VPN remained operational. The root cause was traced to
+a failed ECC memory module producing uncorrectable errors.
 
-This case study demonstrates structured hardware troubleshooting using:
-- BIOS and firmware diagnostics
-- Dell ePSA Pre-Boot System Assessment
-- System Event Log (SEL) analysis
-- Linux kernel and system verification
+This case study demonstrates:
+- Host vs network fault isolation
+- Use of firmware and vendor diagnostics (UEFI, ePSA, SEL)
+- ECC memory failure analysis
+- Controlled remediation and validation
+- Professional incident documentation
 
-📁 Detailed investigation and resolution steps are documented in:
-`hardware-troubleshooting/`
+---
+
+## Case Study Documentation
+
+Detailed investigation and resolution steps are available here:
+
+📁 **Hardware Incident Report**  
+[`hardware-troubleshooting/`](hardware-troubleshooting)
+
+This includes:
+- Timeline of events
+- Diagnostics performed
+- Root cause analysis
+- Resolution steps
+- Lessons learned
+- Supporting screenshots
 
